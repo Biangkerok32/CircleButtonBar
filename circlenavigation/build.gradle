@@ -3,14 +3,14 @@ apply plugin: 'com.github.dcendents.android-maven'
 group = 'com.github.mehrtarh'
 
 android {
-    compileSdkVersion 25
+    compileSdkVersion 28
     //noinspection GradleDependency
-    buildToolsVersion "25.0.2"
+    buildToolsVersion "28.0.3"
 
     defaultConfig {
-        minSdkVersion 15
+        minSdkVersion 16
         //noinspection OldTargetApi
-        targetSdkVersion 15
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         vectorDrawables.useSupportLibrary = true
